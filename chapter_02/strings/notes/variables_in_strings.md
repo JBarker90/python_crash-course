@@ -1,6 +1,6 @@
-## Using Variables in Strings
+# Using Variables in Strings
 
-1. In some situations, you'll want to use a variable's value inside a string. 
+### 1. In some situations, you'll want to use a variable's value inside a string. 
 
 - For example, you may want two variables to represent a first name and a last name respectively, and then want to combine those values to display someone's full name.
 
@@ -29,7 +29,7 @@ variable with its value when the string is displayed.
 formats the string by replacing the name of any variable in braces with its
 value.
 
-2. You can do a lot with `f-strings`. For example, you can use `f-strings` to compose complete messages using the information associated with a variable:
+### 2. You can do a lot with `f-strings`. For example, you can use `f-strings` to compose complete messages using the information associated with a variable:
 
 ```
 first_name = "ada"
@@ -46,7 +46,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_02/strings$ python3 full_na
 Hello, Ada Lovelace!
 ```
 
-3. You can also use `f-strings` to compose a message, and then assign the entire message to a variable.
+### 3. You can also use `f-strings` to compose a message, and then assign the entire message to a variable.
 
 ```
 first_name = "ada"
