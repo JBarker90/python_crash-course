@@ -1,10 +1,10 @@
-## Avoiding Syntax Errors with Strings
+# Avoiding Syntax Errors with Strings
 
-1. A *syntax error* occurs when Python doesn't recognize a section of your program as valid Python code.
+### 1. A *syntax error* occurs when Python doesn't recognize a section of your program as valid Python code.
 
 - For example, if you use an apostrophe within single quotes, you'll produce an error.
 
-2. Here's how to use single and double quotes correctly. Save this program as `apostrophe.py` and then run it:
+### 2. Here's how to use single and double quotes correctly. Save this program as `apostrophe.py` and then run it:
 
 ```
 message = "One of Python's strengths is its diverse community."
@@ -18,7 +18,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_02/strings$ python3 apostro
 One of Python's strengths is its diverse community.
 ```
 
-3. However, if you use single quotes, Python can't identify it and it will break with a syntax error:
+### 3. However, if you use single quotes, Python can't identify it and it will break with a syntax error:
 
 ```
 message = 'One of Python's strengths is its diverse community.'
