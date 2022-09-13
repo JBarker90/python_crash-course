@@ -1,6 +1,6 @@
-## Adding and Stripping Whitespace to Strings
+# Adding and Stripping Whitespace to Strings
 
-1. Adding Whitespace to Strings with Tabs or Newlines
+### 1. Adding Whitespace to Strings with Tabs or Newlines
 
 - In programming, `whitespace` refers to any nonprinting character, such as spaces, tabs, and end-of-line symbols.
 - You can use `whitespace` to organize your output for easier visibility
@@ -34,7 +34,7 @@ Languages:
         Javascript
 ```
 
-2. Stripping Whitespace:
+### 2. Stripping Whitespace:
 
 - Extra whitespace can be confusing in your programs. To programmers `'python'` and `'python '` look pretty much the same. But to a program, they are two different strings. 
 
