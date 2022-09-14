@@ -1,6 +1,6 @@
-## Numbers
+# Numbers
 
-1. Integers:
+### 1. Integers:
 
 - You can add `(+)`, substract `(-)`, multiply `(*)`, and divide `(/)` integers in Python
 
@@ -32,7 +32,7 @@ NOTE: Python does use the Order of Operations
 1000000
 ```
 
-2. Floats:
+### 2. Floats:
 
 - Python calls any number with a decimal point a *float*. This term is used in most programming languages, and it refers to the fact that a decimal point can appear at any position in a number.
 
@@ -49,7 +49,7 @@ NOTE: Python does use the Order of Operations
 0.4
 ```
 
-3. Integers and Floats:
+### 3. Integers and Floats:
 
 - When you divide any two numbers, even if they are integers that result in a whole number, you'll always get a float:
 
@@ -69,7 +69,7 @@ NOTE: Python does use the Order of Operations
 9.0
 ```
 
-4. Underscores in Numbers:
+### 4. Underscores in Numbers:
 
 - When you're writing long numbers, you can group digits using underscores to make large numbers more readable. I created a new file called `underscore.py` for a proof of concept:
 
@@ -87,7 +87,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_02/numbers$ python3 undersc
 14000000000
 ```
 
-5. Multiple Assignment:
+### 5. Multiple Assignment:
 
 - You can assign values to more than one variable using just a single line. This can help shorten your programs and make them easier to read; you'll use this technique most often when initializing a set of numbers.
 
@@ -106,7 +106,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_02/numbers$ python3 multipl
 0 0
 ```
 
-6. Constants:
+### 6. Constants:
 
 - A *contstant* is like a variable whose value stays the same throughout the life of a program. Python doesn't have built-in constant types, but Python programmers use all capital letters to indicate a variable should be treated as a constant and never be changed. This is in a file called `constants.py`:
 
