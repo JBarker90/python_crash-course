@@ -1,8 +1,8 @@
-## Comments
+# Comments
 
-1. A *comment* allows you to write notes in English within your programs. They are an extremely useful feature in most programming languages. 
+### 1. A *comment* allows you to write notes in English within your programs. They are an extremely useful feature in most programming languages. 
 
-2. How Do You Write Comments?
+### 2. How Do You Write Comments?
 
 - In Python, the hash mark (#) indicates a comment. Anything following a hash mark in your corde is ignored by the Python interpreter. 
 
@@ -21,7 +21,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_02/comments$ python3 commen
 Hello Python people!
 ```
 
-3. What Kind of Comments Should You Write?
+### 3. What Kind of Comments Should You Write?
 
 - The main reason to write comments is to explain what your code is supposed to do and how you are making it work. 
 
