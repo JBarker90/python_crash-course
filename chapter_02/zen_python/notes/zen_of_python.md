@@ -1,8 +1,8 @@
-## The Zen of Python
+# The Zen of Python
 
-1. Experienced Python programmers will encourage you to avoid complexity and aim for simplicity whenever possible. The Python community's philosophy is contained in "The Zen of Python" by Tim Peters. 
+### 1. Experienced Python programmers will encourage you to avoid complexity and aim for simplicity whenever possible. The Python community's philosophy is contained in "The Zen of Python" by Tim Peters. 
 
-2. You can access this brief set of principles for writing good Python code by entering `import this` into your interpreter.
+### 2. You can access this brief set of principles for writing good Python code by entering `import this` into your interpreter.
 
 ```
 jonathan@dockerhost-01:~/python_crash-course/chapter_02/zen_python$ python3 zen_of_python.py
