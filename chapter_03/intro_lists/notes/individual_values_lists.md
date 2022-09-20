@@ -1,6 +1,6 @@
-## Using Individual Values from a List
+# Using Individual Values from a List
 
-1. You can use individual values from a list just as you would any other variable. 
+### 1. You can use individual values from a list just as you would any other variable. 
 
 - For example, you can use f-strings to create a message based on a value from a list.
 
