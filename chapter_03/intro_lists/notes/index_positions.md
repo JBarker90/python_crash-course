@@ -1,8 +1,8 @@
-## Index Positions Start at 0, Not 1
+# Index Positions Start at 0, Not 1
 
-1. Python considers the first item in a list to be at position 0, not position 1. This is true of most programming languages. 
+### 1. Python considers the first item in a list to be at position 0, not position 1. This is true of most programming languages. 
 
-2. The second item in a list has an index of 1. Using this system, you can get any element you want from a list by subtracting one from its position in the list. 
+### 2. The second item in a list has an index of 1. Using this system, you can get any element you want from a list by subtracting one from its position in the list. 
 
 - The following asks for the bicycles at index 1 and index 3:
 
@@ -20,7 +20,7 @@ cannondale
 specialized
 ```
 
-3. Python has a special syntax for accessing the last element in a list. 
+### 3. Python has a special syntax for accessing the last element in a list. 
 
 - By specifying the item at index -1, Python always returns the last item in the list:
 
