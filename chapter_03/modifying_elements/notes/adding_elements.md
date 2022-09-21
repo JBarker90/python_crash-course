@@ -50,3 +50,25 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_03/modifying_elements$ pyth
 ```
 
 NOTE: Building lists this way is very common, because you often won't know the data your users want to store in a program until after the program is running. To put you users in control, start by defining an empty list that will hold the users' values.
+
+### 4. Inserting Elements into a List
+
+- You can add a new element at any position in your list by using the `insert()` method. 
+
+- You can do this by specifying the index of the new element and the value of the new item.
+
+```
+motorcyles = ['honda', 'yamaha', 'suzuki']
+
+motorcyles.insert(0, 'ducati')
+print(motorcyles)
+```
+
+Output:
+
+```
+jonathan@dockerhost-01:~/python_crash-course/chapter_03/modifying_elements$ python3 motorcycles.py
+['ducati', 'honda', 'yamaha', 'suzuki']
+```
+
+NOTE: The `insert()` method opens a space at position 0 and stores the value `'ducati'` at that location.
