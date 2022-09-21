@@ -1,12 +1,12 @@
-## Modifying Elements in a List
+# Modifying Elements in a List
 
-1. Changing, Adding, and Removing Elements:
+### 1. Changing, Adding, and Removing Elements:
 
 - Most lists you create will be dynamic, menaing you'll build a list and then add and remove elements from it as your program runs its course. 
 
 - For example, you might create a game in which a player has to shoot aliens out of the sky. You could store the initial set of aliens in a list and then remove an alien from the list each time one is shot down. 
 
-2. The syntax for modifying an element is similiar to the syntax for accessing an element in a list.
+### 2. The syntax for modifying an element is similiar to the syntax for accessing an element in a list.
 
 - To change an element, use the name of the list followed by the index of the element you want to change, and then provide the new value you want that item to have.
 
