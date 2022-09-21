@@ -1,10 +1,10 @@
-## Adding Elements to a List
+# Adding Elements to a List
 
-1. You might want to add a new element to a list for many reasons.
+### 1. You might want to add a new element to a list for many reasons.
 
 - For example, you might want to make new aliens appear in a game, add new data to a visualization, or add new registered users to a website you've built. 
 
-2. Appending Elements to the End of a List
+### 2. Appending Elements to the End of a List
 
 - The simplest way to add a new element to a list is to *append* the item to the list. 
 
@@ -28,7 +28,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_03/modifying_elements$ pyth
 ['honda', 'yamaha', 'suzuki', 'ducati']
 ```
 
-3. The `append()` method makes it easy to build lists dynamically. 
+### 3. The `append()` method makes it easy to build lists dynamically. 
 
 - You can start with an empty list and then add items to the list using a series of `append()` calls. 
 
