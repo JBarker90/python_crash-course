@@ -1,6 +1,4 @@
 motorcyles = ['honda', 'yamaha', 'suzuki']
-print(motorcyles)
 
-popped_motorcycle = motorcyles.pop()
-print(motorcyles)
-print(popped_motorcycle)
+last_owned = motorcyles.pop()
+print(f"The last motorcyle I owned was a {last_owned.title()}")
