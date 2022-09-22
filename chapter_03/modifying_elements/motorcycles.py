@@ -1,5 +1,6 @@
 motorcyles = ['honda', 'yamaha', 'suzuki']
 print(motorcyles)
 
-del motorcyles[1]
+popped_motorcycle = motorcyles.pop()
 print(motorcyles)
+print(popped_motorcycle)
