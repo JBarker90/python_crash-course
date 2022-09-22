@@ -1,4 +1,5 @@
 motorcyles = ['honda', 'yamaha', 'suzuki']
+print(motorcyles)
 
-motorcyles.insert(0, 'ducati')
+del motorcyles[0]
 print(motorcyles)
