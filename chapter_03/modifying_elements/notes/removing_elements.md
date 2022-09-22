@@ -1,10 +1,10 @@
-## Removing Elements from a List
+# Removing Elements from a List
 
-1. Often you'll want to remove an item or a set of items from a list. 
+### 1. Often you'll want to remove an item or a set of items from a list. 
 
 - For example, when a player shoots down an alien from the sky, you'll most likely want to remove it from the list of active aliens.
 
-2. Removing an item using the `del` statement.
+### 2. Removing an item using the `del` statement.
 
 - If you know the position of the item you want to remove from a list, you can use the `del` statement.
 
@@ -44,7 +44,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_03/modifying_elements$ pyth
 ['honda', 'suzuki']
 ```
 
-3. Removing an item using the `pop()` method.
+### 3. Removing an item using the `pop()` method.
 
 - Sometimes you'll want to use the value of an item after you remove it from a list. For example, you might want to get the *x* and *y*  position of an alien that was just shot down, so you can draw an explosion at that position. 
 
@@ -90,7 +90,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_03/modifying_elements$ pyth
 The last motorcyle I owned was a Suzuki
 ```
 
-4. Popping items from any position in a list.
+### 4. Popping items from any position in a list.
 
 - You can use `pop()` to remove an item from any position in a list by including the index of the item you want to remove in parantheses. 
 
@@ -113,7 +113,7 @@ here’s a simple way to decide: when you want to delete an item from a list
 and not use that item in any way, use the `del` statement; if you want to use an
 item as you remove it, use the `pop()` method.
 
-5. Removing an item by value.
+### 5. Removing an item by value.
 
 - If you only know the value of the item you want to remove, you can use the `remove()` method. 
 
