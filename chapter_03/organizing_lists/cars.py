@@ -1,10 +1,9 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-print("Here is the original list:")
+print("This is the original list:")
 print(cars)
 
-print("\nHere is the sorted list:")
-print(sorted(cars))
+cars.reverse()
 
-print("\nHere is the original list again:")
+print("\nThis is the list in reverse:")
 print(cars)
