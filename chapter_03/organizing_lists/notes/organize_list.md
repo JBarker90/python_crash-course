@@ -1,6 +1,6 @@
-## Organizing a List
+# Organizing a List
 
-1. Sorting a List Permanently with the `sort()` Method
+### 1. Sorting a List Permanently with the `sort()` Method
 
 - Python's `sort()` method makes it relatively easy to sort a list. 
 
@@ -67,7 +67,7 @@ Here is the original list again:
 ```
 
 
-2. Sorting a List Temporarily with the `sorted()` Function
+### 2. Sorting a List Temporarily with the `sorted()` Function
 
 - To maintain the original order of a list but present it in a sorted order, you can use the `sorted()` function. 
 
@@ -100,7 +100,7 @@ Here is the original list again:
 ['bmw', 'audi', 'toyota', 'subaru']
 ```
 
-3. Printing a List in Reverse Order
+### 3. Printing a List in Reverse Order
 
 - To reverse the original order of a list, you can use the `reverse()` method. 
 
@@ -131,7 +131,7 @@ This is the list in reverse:
 
 NOTE: The `reverse()` method changes the order of a list permanently, but you can revert to the original order anytime by applying `reverse()` to the same list a second time. 
 
-4. Finding the Length of a List:
+### 4. Finding the Length of a List:
 
 - You can quickly find the length of a list by using the `len()` function. 
 
