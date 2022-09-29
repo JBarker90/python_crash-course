@@ -1,9 +1,3 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-print("This is the original list:")
-print(cars)
-
-cars.reverse()
-
-print("\nThis is the list in reverse:")
-print(cars)
+print("The number of items in this list is: ", len(cars))
