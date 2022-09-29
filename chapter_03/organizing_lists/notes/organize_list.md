@@ -36,7 +36,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_03/organizing_lists$ python
 ['toyota', 'subaru', 'bmw', 'audi']
 ```
 
-NOTE: Here is a proof of concept that the `sort()` function is permanent
+NOTE: Here is a proof of concept that the `sort()` function is permanent. As you can see here, the third print statement does NOT print out the original ordered list. It only reorganized the items after the second print statement and then kept the same order. This can be compared to the next section on `sorted()` that sorts temporarily.
 
 ```
 cars = ['bmw', 'audi', 'toyota', 'subaru']
