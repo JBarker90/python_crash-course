@@ -1,6 +1,6 @@
-## Looping Through an Entire List
+# Looping Through an Entire List
 
-1. When you want to do the same action with every item in a list, you can use Python's `for` loop.
+### 1. When you want to do the same action with every item in a list, you can use Python's `for` loop.
 
 - A `for` loop avoids both of these issues by letting Python manage these issues internally. 
 
@@ -21,7 +21,7 @@ david
 carolina
 ```
 
-2. A Closer look at Looping:
+### 2. A Closer look at Looping:
 
 - The concept of looping is important because it's one of the most common ways a computer automates repetitive tasks. 
 
@@ -39,7 +39,7 @@ for magician in magicians:
 print(magician)
 ```
 
-3. Doing More Work Within a `for` Loop:
+### 3. Doing More Work Within a `for` Loop:
 
 - Let's build on the previous example by printing a message to each magician, telling them that they performed a great trick:
 
@@ -84,7 +84,7 @@ I can't wait to see your next trick, Carolina.
 
 ```
 
-4. Doing Something After a `for` Loop:
+### 4. Doing Something After a `for` Loop:
 
 - What happens once a `for` loop has finished executing? Usually, you'll want to summarize a block of output or move on to other work that your program must accomplish. 
 
