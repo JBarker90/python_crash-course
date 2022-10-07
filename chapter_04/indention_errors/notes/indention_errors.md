@@ -1,8 +1,8 @@
-## Avoiding Indention Errors
+# Avoiding Indention Errors
 
-1. As you begin to write code that relies on proper indention, you'll need to watch for a few common *indentation errors*.
+### 1. As you begin to write code that relies on proper indention, you'll need to watch for a few common *indentation errors*.
 
-2. Forgetting to Indent:
+### 2. Forgetting to Indent:
 
 - Always indent the line after the `for` statement in a loop. If you forget, Python will remind you with a error.
 
@@ -23,7 +23,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_04/indention_errors$ python
 IndentationError: expected an indented block after 'for' statement on line 3
 ```
 
-3. Forgetting to Indent Additional Lines:
+### 3. Forgetting to Indent Additional Lines:
 
 - Sometimes your loop will run without any errors but won't produce the expected result. This can happen when you're trying to do several tasks in a loop and you forget to indent some of its lines.
 
@@ -47,7 +47,7 @@ Carolina, that was a great trick!
 I can't wait to see your next trick, Carolina.
 ```
 
-4. Indenting Unnecessarily:
+### 4. Indenting Unnecessarily:
 
 - If you accidentally indent a line that doesn't need to be indented, Python informs you about the unexpected indent:
 
@@ -67,7 +67,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_04/indention_errors$ python
 IndentationError: unexpected indent
 ```
 
-5. Indenting Unnecessarily After the Loop:
+### 5. Indenting Unnecessarily After the Loop:
 
 - If you accidentally indent code that should run after a loop has finished, that code will be repeated once for each item in the list. 
 
@@ -100,7 +100,7 @@ I can't wait to see your next trick, Carolina.
 Thank you everyone, that was a great magic show!
 ```
 
-6. Forgetting the Colon:
+### 6. Forgetting the Colon:
 
 - The colon at the end of a `for` statement tells Python to interpret the next line as the start of a loop.
 
