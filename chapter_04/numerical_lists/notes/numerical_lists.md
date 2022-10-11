@@ -1,10 +1,10 @@
-## Making Numerical Lists
+# Making Numerical Lists
 
-1. Many reasons exist to store a set of numbers. 
+### 1. Many reasons exist to store a set of numbers. 
 
 - For example, you'll need to keep track of the positions of each character in a game, and you might want to keep track of a player's high scores as well. 
 
-2. Using the `range()` Function:
+### 2. Using the `range()` Function:
 
 - Python's `range()` function makes it easy to generate a series of numbers. 
 
@@ -47,7 +47,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_04/numerical_lists$ python3
 5
 ```
 
-3. Using `range()` to Make a List of Numbers:
+### 3. Using `range()` to Make a List of Numbers:
 
 - If you want to make a list of numbers, you can convert the results of `range()` directly into a list using the `list()` function.
 
@@ -111,7 +111,7 @@ for value in range(1, 11):
 print(squares)
 ```
 
-4. List Comprehensions:
+### 4. List Comprehensions:
 
 - The approach described earlier for generating the list `squares` consisted of using three or four lines of code. 
 
