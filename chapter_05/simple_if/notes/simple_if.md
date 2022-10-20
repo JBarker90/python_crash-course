@@ -1,8 +1,8 @@
-## A Simple Example of If Statement
+# A Simple Example of If Statement
 
-1. The following short example shows how `if` tests let you respond to special situations correctly.
+### 1. The following short example shows how `if` tests let you respond to special situations correctly.
 
-2. Imagine you have a list of cars and you want to print out the name of each car. However, the value 'bmw' should be printed in all uppercase.
+### 2. Imagine you have a list of cars and you want to print out the name of each car. However, the value 'bmw' should be printed in all uppercase.
 
 - This code block loops through the list of cars in `cars.py` and then looks for 'bmw' to print uppercase
 
