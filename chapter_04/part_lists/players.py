@@ -1,2 +1,5 @@
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
-print(players[:4])
+
+print("Here are the first three players on my team:\n")
+for player in players[:3]:
+    print(player.title())
