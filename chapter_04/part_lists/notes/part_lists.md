@@ -1,6 +1,6 @@
-## Working with Part of a List
+# Working with Part of a List
 
-1. Slicing a List:
+### 1. Slicing a List:
 
 - To make a slice, you specify the index of the first and last elements you want to work with. 
 
@@ -49,7 +49,7 @@ Output:
 ['charles', 'martina', 'michael', 'florence']
 ```
 
-2. Looping Through a Slice:
+### 2. Looping Through a Slice:
 
 - You can use a slice in a `for` loop if you want to loop through a subset of the elements in a list. 
 
@@ -73,7 +73,7 @@ Martina
 Michael
 ```
 
-3. Copying a List
+### 3. Copying a List
 
 - Often, you'll want to start with an existing list and make an entirely new list based on the first one. 
 
