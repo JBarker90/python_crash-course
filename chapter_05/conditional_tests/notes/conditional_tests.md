@@ -1,8 +1,8 @@
-## Conditional Tests
+# Conditional Tests
 
-1. At the heart of every `if` statement is an expression that can be evaluated as `True` or `False` and is called a *conditional test*. 
+### 1. At the heart of every `if` statement is an expression that can be evaluated as `True` or `False` and is called a *conditional test*. 
 
-2. Checking for Equality
+### 2. Checking for Equality
 
 - Most conditional tests compare the current value of a variable to a specific value of interest. 
 
@@ -25,7 +25,7 @@ False
 False
 ```
 
-3. Ignoring Case When Checking for Equality
+### 3. Ignoring Case When Checking for Equality
 
 - As pointed in the example above, testing for equality is case sensitive. Two values with different capitalization are not considered equal
 
@@ -57,7 +57,7 @@ True
 bmw
 ```
 
-4. Checking for Inequality
+### 4. Checking for Inequality
 
 - When you want to determine whether two values are NOT equal, you can combine an exclamation point and an equal sign `(!=)`.
 
@@ -79,7 +79,7 @@ jonathan@dockerhost-01:~/python_crash-course/chapter_05/conditional_tests$ pytho
 Hold the anchovies!
 ```
 
-5. Numerical Comparisons
+### 5. Numerical Comparisons
 
 - Testing numerical values is pretty straightforward. The following code checks whether a person is 18 years old.
 
@@ -128,7 +128,7 @@ Your answer: 42
 Congratulations! You guessed the answer!!!
 ```
 
-6. Using `and` to Check Multiple Conditions
+### 6. Using `and` to Check Multiple Conditions
 
 - To check whether two conditions are bot `True` simultaneously, use the keyword `and` to combine the two conditional tests; if each test passes, the overall  expression evaluates to `True`.
 
@@ -144,7 +144,7 @@ False
 True
 ```
 
-7. Using `or` to Check Multiple Conditions
+### 7. Using `or` to Check Multiple Conditions
 
 - The keyword `or` allows you to check multiple conditions as well, but it passes when either or both of the individual tests pass.
 
@@ -159,7 +159,7 @@ True
 False
 ```
 
-8. Checking Whether a Value Is in a List
+### 8. Checking Whether a Value Is in a List
 
 - To find out whether a particular value is already in a list, use the keyword `in`. 
 - This is in the `banned_users.py` file
@@ -184,7 +184,7 @@ Please type your name to see if you are blocked: david
 Do not go! Do not collect $200!
 ```
 
-9. Checking Whether a Value is Not in a List
+### 9. Checking Whether a Value is Not in a List
 
 - You can use the keyword `not` check whether a value does not appear in a list.
 
