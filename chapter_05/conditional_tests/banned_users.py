@@ -1,7 +1,7 @@
 banned_users = ['andrew', 'carolina', 'david']
 your_user = input("Please type your name to see if you are blocked: ")
 
-if your_user in banned_users:
-    print("Do not go! Do not collect $200! ")
+if your_user not in banned_users:
+    print(f"{your_user.title()}, you are safe!")
 else:
-    print("You are safe!")
+    print("Do not pass go! Do not collect $200!")
